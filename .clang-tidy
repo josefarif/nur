@@ -1,0 +1,10 @@
+---
+Checks: >
+  -*,
+  bugprone-*,
+  google-*,
+  misc-*,
+  performance-*,
+  portability-*,
+  readability-*,
+
