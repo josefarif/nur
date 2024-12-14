@@ -1,0 +1,15 @@
+[submodule "ext/sdl"]
+	path = ext/sdl
+	url = https://github.com/libsdl-org/SDL.git
+[submodule "ext/rtm"]
+	path = ext/rtm
+	url = https://github.com/nfrechette/rtm.git
+[submodule "ext/fmt"]
+	path = ext/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "ext/vkb"]
+	path = ext/vkb
+	url = https://github.com/charles-lunarg/vk-bootstrap.git
+[submodule "ext/vma"]
+	path = ext/vma
+	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git

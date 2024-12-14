@@ -1,0 +1,26 @@
+---
+BasedOnStyle: Google
+IndentAccessModifiers: true
+AllowShortBlocksOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: false
+ColumnLimit: 120
+IncludeCategories:
+  - Regex: '^(.*)\.h$'
+    Priority: 0
+  - Regex: '^<.*\.h>$'
+    Priority: 1
+  - Regex: '^<.*>$'
+    Priority: 2
+  - Regex: '^.*\.h$'
+    Priority: 3
+  - Regex: '^"nur\.h"$'
+    Priority: 4
+  - Regex: '^"([^/]+/)?[^"]*\.h"$'
+    Priority: 5
+IndentWidth: 4
+ReflowComments: false
+SortIncludes: true
+TabWidth: 4
+UseTab: ForIndentation
+KeepEmptyLinesAtTheStartOfBlocks: true
