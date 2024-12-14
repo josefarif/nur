@@ -1,0 +1,9 @@
+[submodule "ext/sdl"]
+	path = ext/sdl
+	url = https://github.com/libsdl-org/SDL.git
+[submodule "ext/vma"]
+	path = ext/vma
+	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
+[submodule "ext/flecs"]
+	path = ext/flecs
+	url = https://github.com/SanderMertens/flecs.git
